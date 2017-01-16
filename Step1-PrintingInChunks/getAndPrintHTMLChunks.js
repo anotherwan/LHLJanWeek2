@@ -1,8 +1,9 @@
+'use strict'
 const https = require('https')
 
 function getAndPrintHTMLChunks () {
 
-  var requestOptions = {
+  let requestOptions = {
     host: 'systantris.github.io',
     path: '/http-examples/step1.html'
   }

@@ -1,3 +1,5 @@
+'use strict'
+
 const https = require('https')
 
 function getHTML (options, callback) {
@@ -19,9 +21,9 @@ function printHTML (html) {
 }
 console.log(printHTML())
 
-var requestOptions = {
+let requestOptions = {
   host: 'systantris.github.io',
-  path: '/http-examples/step1.html'
+  path: '/http-examples/step4.html'
 }
 
 console.log(getHTML(requestOptions))
