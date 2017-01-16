@@ -12,7 +12,7 @@ function printUpperCase (html) {
 
 
 let requestOptions = {
-  host: 'systantris.github.io',
+  host: 'sytantris.github.io',
   path: '/http-examples/step6/uppercase.html'
 }
 

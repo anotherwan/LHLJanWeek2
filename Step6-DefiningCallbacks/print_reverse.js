@@ -9,7 +9,7 @@ function printReversed (html) {
 
 
 let requestOptions = {
-  host: 'systantris.github.io',
+  host: 'sytantris.github.io',
   path: '/http-examples/step6/reverse.html'
 }
 
